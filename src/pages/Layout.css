@@ -1,0 +1,18 @@
+.Container {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgreen;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LayoutContainer {
+    width: 60vw;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur();
+    border-radius: 30px;
+    box-shadow: 10px black;
+}
