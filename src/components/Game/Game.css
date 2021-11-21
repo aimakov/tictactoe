@@ -29,6 +29,7 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+    position: relative;
 }
 
 .Circle {
@@ -76,4 +77,59 @@
     left: 15%;
     transform: translate(-50%, -50%);
     transform: rotate(-45deg);
+}
+
+.WinningLine {
+    position: absolute;
+    width: 270px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: red;
+}
+
+.firstHor {
+    top: 50px;
+    left: 30px;
+}
+
+.secondHor {
+    top: 160px;
+    left: 30px;
+}
+
+.thirdHor {
+    top: 270px;
+    left: 30px;
+}
+
+.firstVert {
+    transform: rotate(90deg);
+    left: -80px;
+    top: 160px;
+}
+
+.secondVert {
+    transform: rotate(90deg);
+    left: 30px;
+    top: 160px;
+}
+
+.thirdVert {
+    transform: rotate(90deg);
+    left: 140px;
+    top: 160px;
+}
+
+.firstDia {
+    transform: rotate(45deg);
+    left: -15px;
+    top: 160px;
+    width: 361px;
+}
+
+.secondDia {
+    transform: rotate(135deg);
+    left: -15px;
+    top: 160px;
+    width: 360px;
 }
